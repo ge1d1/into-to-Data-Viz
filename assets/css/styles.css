@@ -1,0 +1,64 @@
+.mortalities {
+	list-style:none;
+	padding:0;
+	max-width:400px;
+}
+
+.mortalities li {
+	position:relative;
+	margin: 0  0 2px 0;
+	padding:.5em;
+	
+}
+
+.mortalities em {
+	display:block;
+	margin-left: 2em;
+}
+
+.mortalities li span {
+	position: absolute;
+	bottom:0;
+	left:0;
+	display:block;
+	height:100%;
+	background:#CC6699;
+	z-index:-2;
+	padding-left:.2em;
+	line-height:2.1;
+}
+
+.country {
+	list-style:none;
+	padding:0;
+	display:block;
+}
+
+.country li {
+	position:relative;
+	float:left;
+	height:8em;
+	width:100px;
+	margin:0 2px 0 0;
+	text-align:center;
+}
+
+.country em {
+	position:absolute;
+	text-align:center;
+	display:block;
+	width:100%;
+	bottom:-1em;
+	left:0;
+}
+
+.country li span {
+	position: absolute;
+	bottom:0;
+	left:0;
+	height:100%;
+	display:block;
+	width:100%;
+	background:#ACD4F1;
+	z-index:-2;
+}
